@@ -1,0 +1,14 @@
+body{
+    background: darkgray;
+    text-align: center;
+}
+#area{
+    border-radius: 10px;
+    height: 150px;
+    width: 300px;
+}
+#area:focus{
+    background: rgb(73,107,254);
+    background: linear-gradient(45deg, rgba(73,107,254,1) 40%, rgba(84,116,253,1) 40%);
+    color: white;
+}
